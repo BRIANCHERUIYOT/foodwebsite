@@ -1,0 +1,12 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.intro{
+    background-color: #649549;
+    font-family: Poppins;
+}
+.nav{
+    color: black;
+   display:flex;
+}
