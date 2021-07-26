@@ -1,12 +1,30 @@
-body{
-    margin: 0%;
-    padding: 0%;
-}
-.intro{
-    background-color: #649549;
-    font-family: Poppins;
+a{
+   display:inline;
+  justify-content: center;
+   text-decoration: black none;
+   font-family: Poppins;
 }
 .nav{
-    color: black;
-   display:flex;
+    background-color: lightgrey;
+    height: 600px;
+}
+h1{
+    color:  #6CB840;
+    font-size: 24;
+    margin-top: 20px;
+}
+button{
+    background-color: #6CB840;
+}
+.eat{
+    display: flex;
+    height: 600px;
+}
+.explore{
+    background-color: lightgrey;
+    height: 600px;
+    flex-wrap: wrap;
+}
+#1 {
+    flex-wrap: wrap;
 }
