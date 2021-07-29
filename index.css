@@ -19,17 +19,7 @@ body{
     clip-path: circle(42.0% at 76% 6%);
     background-color:#649549;
   }
-  /* .na #star{
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:black;
-    clip-path: polygon(49% 22%, 52% 31%, 57% 34%, 52% 40%, 56% 48%, 41% 49%, 46% 39%, 42% 32%, 46% 33%);
-  } */
+
 .nav ul li {
     display: inline-flex;
     text-decoration: none;
@@ -60,6 +50,7 @@ button{
     text-decoration: none;
     border-radius: 25px;
     font-size: 25px;
+    margin-left: 150px;
 }
 
 /* end of nav code */
@@ -131,15 +122,23 @@ button{
     /* begin of hot code*/
 .hot{
 background-color: #649549;
-display: flex;
+display: inline-block;
 flex-wrap: wrap;
 }
+.deals span h1{
+    color: #649549;
+}
 .imag{
-    float: left;
+    margin-top: -70px;
+}
+.imag2{
+    margin-top: -400px;
+    margin-right: 700px;
 }
 .deals{
     float: right;
-    margin-top: -100px;
+    margin-left: 1000px;
+    margin-top: -400px;
 
 }
 /* end hot code */
@@ -153,10 +152,13 @@ text-align: center
 }
 .email{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 100px;
 }
 .contactus span{
     color:  #6CB840;
+}
+.send{
+    margin-right: 150px;
 }
 /* begining of footer code */
 .footer{
@@ -164,10 +166,13 @@ text-align: center
     height: 300px;;
     display: inline-flex;
     flex-direction:row;
+    margin: 0%;
+    padding: 0%;
 }
 .sun{
     margin-right: 200px;
     margin-top: 60px;
+    border-right: #6CB840;
 
 }
 .TN{
