@@ -19,6 +19,17 @@ body{
     clip-path: circle(42.0% at 76% 6%);
     background-color:#649549;
   }
+  /* .na #star{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:black;
+    clip-path: polygon(49% 22%, 52% 31%, 57% 34%, 52% 40%, 56% 48%, 41% 49%, 46% 39%, 42% 32%, 46% 33%);
+  } */
 .nav ul li {
     display: inline-flex;
     text-decoration: none;
@@ -37,7 +48,9 @@ body{
 .nav ul li a{
     padding: 30px;
 }
-
+#food{
+color:  #EAAB1B;
+}
 button{
     background-color:#6CB840 ;
     color: white;
@@ -68,7 +81,7 @@ button{
     padding-top:120px;
 }
 .info p{
-    color: red;
+    color: black;
     display: block;
     margin: 20px;
     padding-left: 100px;
@@ -86,7 +99,7 @@ button{
     padding-top: 300px;
 }
 .together h1 {
- color: orangered;
+ color:  #EAAB1B;
 }
 /* eat code end*/
 
@@ -99,7 +112,7 @@ button{
 }
 
 .explore{
-    background-color: rgb(235, 243, 235);
+    background-color: #C9ECB5;
 }
 .explore .img1 .one{
  background-color: white;
@@ -113,8 +126,61 @@ button{
     display: flex; */
     /* color: blue; */
     /* border: 2px solid blue; */
+    /* end of explore code*/
+
+    /* begin of hot code*/
 .hot{
 background-color: #649549;
 display: flex;
 flex-wrap: wrap;
 }
+.imag{
+    float: left;
+}
+.deals{
+    float: right;
+    margin-top: -100px;
+
+}
+/* end hot code */
+
+/* beginning of contact us code*/
+.contact{
+    background-color: #FFD77C;
+height: 600px;
+text-align: center
+;
+}
+.email{
+    text-align: center;
+    margin-top: 25px;
+}
+.contactus span{
+    color:  #6CB840;
+}
+/* begining of footer code */
+.footer{
+    background-color: #C9ECB5;
+    height: 300px;;
+    display: inline-flex;
+    flex-direction:row;
+}
+.sun{
+    margin-right: 200px;
+    margin-top: 60px;
+
+}
+.TN{
+    margin-right: 200px;
+    margin-top: 70px;
+}
+.folo{
+    margin-right: 200px;
+    margin-top: 70px;
+}
+.insen{
+    margin-right: 300px;
+    margin-top: 100px;
+}
+
+
