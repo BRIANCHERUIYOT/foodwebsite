@@ -20,7 +20,7 @@ body{
     background-color:#649549;
   }
 .nav ul li {
-    display: inline-block;
+    display: inline-flex;
     text-decoration: none;
 }
 .nav ul li a{
@@ -36,6 +36,17 @@ body{
 }
 .nav ul li a{
     padding: 30px;
+}
+
+button{
+    background-color:#6CB840 ;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 25px;
 }
 
 /* end of nav code */
@@ -102,3 +113,8 @@ body{
     display: flex; */
     /* color: blue; */
     /* border: 2px solid blue; */
+.hot{
+background-color: #649549;
+display: flex;
+flex-wrap: wrap;
+}
